@@ -19,7 +19,4 @@
 
     'installable': True,
     'application': False,
-
-'description': """\
-    """,
 }
