@@ -17,7 +17,7 @@
         'views/res_config_settings_view.xml',
     ],
 
-    'images': ['static/description/banner.jpg'],
+    'images': ['static/description/banner.png'],
     'installable': True,
     'application': False,
 }
