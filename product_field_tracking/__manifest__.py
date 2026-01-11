@@ -17,24 +17,7 @@
         'views/res_config_settings_view.xml',
     ],
 
+    'images': ['static/description/banner.png'],
     'installable': True,
     'application': False,
-
-    'description': """
-Este módulo registra en el chatter del producto los cambios realizados en campos clave como nombre, referencia, precio, costo y código de barras.
-
-Funcionalidades:
-- Registro automático de cambios en el chatter.
-- Configuración de campos desde Ajustes generales del sistema.
-- Indicación del usuario, campo editado, valor anterior y nuevo.
-
-Campos configurables:
-- Nombre
-- Referencia interna
-- Precio de venta
-- Costo
-- Código de barras
-
-Requiere Odoo Enterprise 16 y los módulos `product` y `mail`.
-"""
 }
